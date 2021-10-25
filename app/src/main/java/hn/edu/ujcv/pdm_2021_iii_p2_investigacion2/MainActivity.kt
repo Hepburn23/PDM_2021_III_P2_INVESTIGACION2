@@ -15,4 +15,7 @@ class MainActivity : AppCompatActivity() {
                 .commitNow()
         }
     }
+    fun test (){
+
+    }
 }

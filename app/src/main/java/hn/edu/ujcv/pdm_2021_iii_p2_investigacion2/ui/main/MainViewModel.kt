@@ -15,16 +15,23 @@ class MainViewModel : ViewModel() {
         this.moneyText = value
         result = value.toFloat() * USD_TO_HNL
     }
+
+
     fun setMexican(value: String) {
         this.moneyText = value
         result = value.toFloat() * MexicanDollar_TO_HNL
     }
+
+
     fun setCanadian(value: String) {
         this.moneyText = value
         result = value.toFloat() * CanadianD_TO_HNL
     }
+
+
     fun getResults(): Float?{
         return result
     }
 
 }
+

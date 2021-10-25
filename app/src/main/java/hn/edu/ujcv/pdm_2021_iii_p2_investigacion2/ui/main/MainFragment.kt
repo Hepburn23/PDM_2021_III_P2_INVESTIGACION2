@@ -38,6 +38,7 @@ class MainFragment : Fragment() {
                 txvresult.text = "campo requerido"
         }
 
+
         txvresult.text = viewModel.getResults().toString()
         btnConvert.setOnClickListener {
             if (txtConvert.text.isNotEmpty()){
